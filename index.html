@@ -12,7 +12,7 @@
               gesture-detector
              >
 Properties>
-      <a-marker type="pattern" preset="custom" url="https://horstl.github.io/pattern_XRT1.patt">        
+      <a-marker type="pattern" preset="custom" url="https://horstl.github.io/pattern_XRT.patt">        
 
    
         <a-entity
@@ -25,25 +25,7 @@ Properties>
       
 
       </a-marker>
-      <a-marker type="pattern" preset="custom" url="https://horstl.github.io/pattern-192948-0320-px.patt">        
 
-   
-        <a-entity
-          position="0 0 0"
-          scale="0.05 0.05 0.05"
-          gltf-model="https://mokosdaniel.github.io/ARanimated/Star2_Nicamid_animated.glb"
-          class="clickable"
-          gesture-handler="minScale: 0.025; maxScale: 10"
-          animation-mixer="loop:repeat"        
-        ></a-entity>
-        <a-entity light="type: hemisphere; color: #FFF; groundColor: #BBB; intensity: 5"></a-entity>
-        <a-entity light="type: directional; color: #FFF; intensity: 3" position="-1 1 0"></a-entity>
-        <a-entity light="type: point; intensity: 3; distance: 0; decay: 1"
-          position="0 100 100"></a-entity>
-        
-
-
-      </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
   </body>
